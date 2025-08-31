@@ -59,7 +59,6 @@ public class IncidentService {
         response.setDescription(incident.getDescription());
         response.setLocationName(incident.getLocationName());
         response.setStatus(incident.getStatus() != null ? incident.getStatus().name() : null);
-        response.setSeverity(incident.getSeverity() != null ? incident.getSeverity().name() : null);
         response.setReportedAt(incident.getReportedAt());
         response.setValidatedAt(incident.getValidatedAt());
 
